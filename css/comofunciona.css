@@ -1,0 +1,226 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Body */
+  body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #D8B4E2, #A084CA, #705087);
+    color: #4A004E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Barra de Navegação */
+  header {
+    width: 100%;
+    background: rgba(112, 80, 135, 0.95);
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 10px;
+    height: 150px;
+    color: #F3E5F5;
+    font-weight: 70px;
+    border-radius: 50%;
+    left: -350px;
+    top: 10px;
+    position: absolute;
+  }
+  
+  
+  /* Links da Barra de Navegação */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #F3E5F5;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #7D3E9E;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background: #663399;
+  }
+  
+  /* Estilo dos Links da Navegação com Container */
+  .nav-container {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #7D3E9E;
+    color: #F3E5F5;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-container:hover {
+    background-color: #663399;
+  }
+  
+  /* Seção de Boas-Vindas */
+  .welcome-section {
+    text-align: center;
+    color: #4A004E;
+    padding: 60px 20px;
+  }
+  
+  .welcome-section h2 {
+    font-size: 2.8em;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Containers Principais */
+  .main-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+  }
+  
+  /* Estilo das Caixas (Boxes) */
+  .box {
+    width: 400px;
+    padding: 20px;
+    background: rgba(243, 229, 245, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s;
+    color: #4A004E;
+    text-decoration: none;
+  }
+  
+  .box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .box h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    font-size: 1em;
+    color: #7D4780;
+  }
+  
+  /* Seção de Imagens */
+  .image-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+  }
+  
+  /* Estilo das Caixas Informativas da Página "Como Funciona" */
+  .info-box {
+    width: 400px;
+    padding: 20px;
+    background: rgba(243, 229, 245, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s;
+    color: #4A004E;
+    text-decoration: none;
+  }
+  
+  .info-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .info-box h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+  }
+  
+  .info-box p {
+    font-size: 1em;
+    color: #7D4780;
+  }
+  
+  /* Estilização do Formulário */
+  .form-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background: rgba(243, 229, 245, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    margin: 20px auto;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    color: #4A004E;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    color: #4A004E;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #A084CA;
+    border-radius: 10px;
+    font-size: 1em;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7D3E9E;
+    color: #F3E5F5;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #663399;
+  }
+  
+  /* Footer */
+  footer {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background: #705087;
+    color: #F3E5F5;
+    margin-top: auto;
+  }

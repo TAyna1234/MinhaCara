@@ -1,0 +1,124 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Body */
+body {
+    background: linear-gradient(to bottom right, #FFFFFF, #A084CA);
+    color: #4A004E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Barra de Navegação */
+header {
+    width: 100%;
+    background: rgba(112, 80, 135, 0.95);
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+
+.logo {
+    font-size: 10px;
+    height: 150px;
+    color: #F3E5F5;
+    font-weight: 70px;
+    border-radius: 50%;
+    left: -350px;
+    top: 10px;
+    position: absolute;
+  }
+  
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-container {
+    color: #F3E5F5;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #ab7dc4;
+    transition: background-color 0.3s;
+}
+
+.nav-container:hover {
+    background: #663399;
+}
+
+
+/* Conteúdo principal */
+.content-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #6d3a8f;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #4b2a6a;
+}
+
+/* Tabela */
+.table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #6d3a8f;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.table td {
+    font-size: 1rem;
+    color: #4b2a6a;
+}
+
+footer {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    background: rgba(112, 80, 135, 0.95);
+    color: #F3E5F5;
+    position:absolute;
+    top:855px;
+  }

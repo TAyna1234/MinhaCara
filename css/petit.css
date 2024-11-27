@@ -1,0 +1,120 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Body */
+body {
+    background: linear-gradient(to bottom right, #FFFFFF, #A084CA);
+    color: #4A004E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+/* Barra de Navegação */
+header {
+    width: 100%;
+    background: rgba(112, 80, 135, 0.95);
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+
+.logo {
+    font-size: 10px;
+    height: 150px;
+    color: #F3E5F5;
+    font-weight: 70px;
+    border-radius: 50%;
+    left: -350px;
+    top: 10px;
+    position: absolute;
+  }
+  
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-container {
+    color: #F3E5F5;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #ab7dc4;
+    transition: background-color 0.3s;
+}
+
+.nav-container:hover {
+    background: #663399;
+}
+
+
+/* Seção de Cardápio */
+.menu-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+/* Estilo dos Itens de Cardápio */
+.menu-item {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.item-info {
+    padding: 15px;
+}
+
+.item-info h3 {
+    font-size: 1.6em;
+    color: #4A004E;
+}
+
+.item-info p {
+    color: #7D4780;
+}
+
+.item-info span {
+    color: #7D3E9E;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    width: 10000px;
+    padding: 20px 0;
+    text-align: center;
+    background: #705087;
+    color: #F3E5F5;
+    margin-top: auto;
+  }

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+/* Body */
+body {
+    background: linear-gradient(to bottom right, #FFFFFF, #A084CA);
+    color: #4A004E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Barra de Navegação */
+header {
+    width: 100%;
+    background: rgba(112, 80, 135, 0.95);
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+
+.logo {
+    font-size: 10px;
+    height: 150px;
+    color: #F3E5F5;
+    font-weight: 70px;
+    border-radius: 50%;
+    left: -350px;
+    top: 10px;
+    position: absolute;
+  }
+  
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-container {
+    color: #F3E5F5;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #ab7dc4;
+    transition: background-color 0.3s;
+}
+
+.nav-container:hover {
+    background: #663399;
+}
+
+
+/* Seção de Docinhos */
+.menu-section {
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.item img {
+    width: 200px; /* Define a largura fixa */
+    
+   
+height: 150px; /* Define a altura fixa */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    
+   
+border-radius: 10px; /* Mantém bordas arredondadas */
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    color: #4A004E;
+}
+/* Footer */
+footer {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background: #A084CA;
+    color: #A084CA;
+    margin-top: auto;
+  }
