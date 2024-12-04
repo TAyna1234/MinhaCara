@@ -1,11 +1,9 @@
-/* Reset Básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
 /* Body */
 body {
   min-height: 100vh;
@@ -28,6 +26,7 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
+
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
@@ -39,15 +38,17 @@ header {
   color: #F3E5F5;
   font-weight: 70px;
   border-radius: 50%;
-  left: -350px;
   top: 10px;
   position: absolute;
+  margin:0;
+  margin-top: 2%;
 }
 
 /* Links da Barra de Navegação */
 .nav-links {
   display: flex;
   gap: 15px;
+  align-items: center;
 }
 
 .nav-container {
@@ -56,20 +57,17 @@ header {
   padding: 10px 20px;
   border-radius: 25px; /* Arredondamento dos contêineres */
   background-color: #ab7dc4; /* Tom de roxo mais forte */
-  transition: background-color 0.3s
+  transition: background-color 0.3s;
 }
 
-/* Seção de Boas-Vindas */
-.welcome-section {
-  text-align: center;
-  color: #4A004E;
-  padding: 60px 20px;
-}
-
-.welcome-section h2 {
+/* Título de Boas-Vindas com Dancing Script */
+.welcome-title {
+  font-family: 'Dancing Script', cursive;
   font-size: 2.8em;
   margin-bottom: 40px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  color: #4A004E;
+  text-align: center;
 }
 
 /* Containers Principais */
@@ -81,7 +79,6 @@ header {
   max-width: 1200px;
 }
 
-/* Estilo dos Boxes */
 .box {
   width: 400px;
   padding: 20px;
@@ -103,25 +100,21 @@ header {
   font-size: 1.6em;
   margin-bottom: 10px;
 }
-
-.box p {
-  font-size: 1em;
-  color: #7D4780;
-}
-
-/* Seção de Imagens */
-.image-section {
-  display: flex;
-  justify-content: space-around;
-  margin: 40px 0;
-}
-
 /* Footer */
 footer {
+  background: url('../image/footer.jfif') no-repeat center center;
+  background-size: cover;
   width: 100%;
-  padding: 20px 0;
-  text-align: center;
-  background: #705087;
-  color: #F3E5F5;
+  padding: 70px 0;
+  font-size: 1.2em;
+  opacity: 0.4; /* Efeito apagado */
   margin-top: auto;
 }
+
+#footer {
+  position: absolute;
+  background-color: #F3E5F5;
+  margin-left: 38%;
+  border-radius: 5px;
+}
+

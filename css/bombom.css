@@ -33,17 +33,18 @@ header {
   }
   
 
-.logo {
+  .logo {
     font-size: 10px;
     height: 150px;
     color: #F3E5F5;
     font-weight: 70px;
     border-radius: 50%;
-    left: -350px;
     top: 10px;
     position: absolute;
-  }
-  
+    margin:0;
+    margin-top: 2%;
+    }
+    
 
 .nav-links {
     display: flex;
@@ -69,9 +70,12 @@ header {
 }
 
 .menu-section h2 {
-    font-size: 2.5em;
-    color: #4A004E;
-    margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.8em;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  color: #4A004E;
+  text-align: center;
 }
 
 .menu-container {
@@ -121,12 +125,22 @@ header {
     color: #7D3E9E;
     font-size: 1.2em;
 }
-/* Footer */
 footer {
-    width: 10000px;
-    padding: 30px 0;
-    text-align: center;
-    background: #705087;
-    color: #F3E5F5;
+    background: url('../image/footer.jfif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+      padding: 70px 0;
+  
+      ; /* Cor do texto no rodapé */
+    font-size: 1.2em;
+    opacity: 0.4; /* Efeito apagado */
     margin-top: auto;
+    /* font-weight: 900; */
+  }
+  
+  #footer{
+    position: absolute;
+    background-color: #F3E5F5;
+    margin-left: 35%;
+    border-radius: 5px;
   }

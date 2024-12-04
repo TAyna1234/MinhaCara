@@ -32,17 +32,17 @@ header {
   }
   
 
-.logo {
+  .logo {
     font-size: 10px;
     height: 150px;
     color: #F3E5F5;
     font-weight: 70px;
     border-radius: 50%;
-    left: -350px;
     top: 10px;
     position: absolute;
+    margin:0;
+    margin-top: 2%;
   }
-  
 
 .nav-links {
     display: flex;
@@ -77,6 +77,14 @@ header {
     justify-content: center;
 }
 
+.menu-section h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.8em;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  color: #4A004E;
+  text-align: center;
+}
 .item {
     background: #fff;
     border-radius: 10px;
@@ -98,15 +106,22 @@ border-radius: 10px; /* Mantém bordas arredondadas */
     margin-bottom: 10px;
 }
 
-h2, h3 {
-    color: #4A004E;
-}
-/* Footer */
 footer {
-    width: 100%;
-    padding: 10px 0;
-    text-align: center;
-    background: #A084CA;
-    color: #A084CA;
-    margin-top: auto;
-  }
+  background: url('../image/footer.jfif') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+    padding: 70px 0;
+
+    ; /* Cor do texto no rodapé */
+  font-size: 1.2em;
+  opacity: 0.4; /* Efeito apagado */
+  margin-top: auto;
+  /* font-weight: 900; */
+}
+
+#footer{
+  position: absolute;
+  background-color: #F3E5F5;
+  margin-left: 35%;
+  border-radius: 5px;
+}
